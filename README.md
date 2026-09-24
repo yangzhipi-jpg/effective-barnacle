@@ -10,9 +10,14 @@
 点应用，点确定！
 
 第二步：在任务管理器中新建任务，输入：gpedit.msc
-1. 左侧：**用户配置 → 管理模板 → 系统**
-2. 右侧找到：**阻止访问注册表编辑工具**，双击
-3. 设置为：**未配置 / 已禁用** → 应用 → 确定，重启电脑
+1. 左侧：用户配置-->管理模板-->系统
+2. 右侧找到：阻止访问注册表编辑工具，双击
+   <img width="500" height="440" alt="image" src="https://github.com/user-attachments/assets/5655a039-7fc9-4671-8ca8-896cd55a75dd" />
+
+3. 设置为：未配置 / 已禁用-->应用 -->确定，
+  <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/02f8c446-dd64-4d11-ada4-1942abc75454" />
+
+4. 重启电脑
 
 第三步：调出任务管理器（ctrl+shift+esc）-->文件-->运行新任务-->输入：regedit，勾选管理员权限，确定打开注册表编辑器，
 ```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon```
