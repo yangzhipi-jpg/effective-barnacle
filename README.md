@@ -21,7 +21,17 @@
 
 第三步：调出任务管理器（ctrl+shift+esc）-->文件-->运行新任务-->输入：regedit，勾选管理员权限，确定打开注册表编辑器，
 ```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon```
-在右侧找到名称Shell，双击编辑它：**数值数据必须是 explorer.exe**，删掉里面其他多余文字，只写 `explorer.exe`，点确定
-### 重启
+<p align="left">
+   <img  width="404" height="980" alt="image" src="https://github.com/user-attachments/assets/d4ecc261-e133-4118-b62a-2e8a148ec823" />
+</p>
+<p align="left">
+   <img align="left" width="612" height="882" alt="image" src="https://github.com/user-attachments/assets/a73064ae-fcfe-4d50-aefa-82425d528d41" />   
+</p>
+<br clear="all">
+
+
+
+<p>在右侧找到名称Shell，双击编辑它：**数值数据必须是 explorer.exe**，删掉里面其他多余文字，只写 `explorer.exe`，点确定</p>
+<h2>重启</h2>
 
 
